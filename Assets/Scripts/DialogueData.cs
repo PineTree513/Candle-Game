@@ -5,5 +5,5 @@ using UnityEngine;
 public class DialogueData : MonoBehaviour
 {
     public string[] dialogue;
-    public float cameraSize;
+    public float cameraFOV;
 }

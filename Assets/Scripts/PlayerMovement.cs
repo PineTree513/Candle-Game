@@ -38,11 +38,12 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D coll;
 
     [Header("Camera")]
-    public Transform cam;
+    public Transform cameraTransform;
     [SerializeField] private Camera cameraScript;
     [SerializeField] private float cameraFollowStrength;
     [SerializeField] private Transform cameraTarget;
-    [SerializeField] private float cameraSizeTarget;
+    [SerializeField] private float cameraFOVTarget;
+    [SerializeField] private float cameraFOVDefault;
     [SerializeField] private float cameraZoomSpeed;
 
     [Header("UI")]
@@ -80,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
         img = panel.GetComponent<Image>();
 
         cameraTarget = transform.Find("Camera Target");
-        cam.position = cameraTarget.position;
+        cameraTransform.position = cameraTarget.position;
 
         if (!testing)
         {
@@ -199,7 +200,7 @@ public class PlayerMovement : MonoBehaviour
         transition = false;
         dialogueData.gameObject.SetActive(false);
         dialogueData = null;
-        cameraSizeTarget = 5f;
+        cameraFOVTarget = cameraFOVDefault;
         dialogueBox.SetActive(false);
     }
 
@@ -246,8 +247,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void CamController()
     {
-        cam.position = Vector3.Lerp(cam.position, new Vector3(cameraTarget.position.x, cameraTarget.position.y, -10), cameraFollowStrength * Time.deltaTime);
-        cameraScript.orthographicSize = Mathf.Lerp(cameraScript.orthographicSize, cameraSizeTarget, cameraZoomSpeed * Time.deltaTime);
+        cameraTransform.position = Vector3.Lerp(cameraTransform.position, new Vector3(cameraTarget.position.x, cameraTarget.position.y, -10), cameraFollowStrength * Time.deltaTime);
+        //cameraScript.orthographicSize = Mathf.Lerp(cameraScript.orthographicSize, cameraSizeTarget, cameraZoomSpeed * Time.deltaTime);
+        cameraScript.fieldOfView = Mathf.Lerp(cameraScript.fieldOfView, cameraFOVTarget, cameraZoomSpeed * Time.deltaTime);
     }
 
     private void MoveLogic()
@@ -411,7 +413,7 @@ public class PlayerMovement : MonoBehaviour
             currentLine = 0;
             dialogueData = collision.gameObject.GetComponent<DialogueData>();
             cameraTarget = collision.transform.GetChild(0);
-            cameraSizeTarget = dialogueData.cameraSize;
+            cameraFOVTarget = dialogueData.cameraFOV;
             dialogueBox.SetActive(true);
             dialogueBoxText.text = "";
             collision.enabled = false;
@@ -457,7 +459,7 @@ public class PlayerMovement : MonoBehaviour
             */
             //Vector2 transitionCam = collision.gameObject.transform.GetChild(0).position;
             //cam.position = new Vector3(transitionCam.x, transitionCam.y, -10);
-            cam.position = new Vector3(collision.gameObject.transform.GetChild(0).position.x , transform.position.y + 1, -10);
+            cameraTransform.position = new Vector3(collision.gameObject.transform.GetChild(0).position.x , transform.position.y + 1, -10);
             transition = true;
         }
 

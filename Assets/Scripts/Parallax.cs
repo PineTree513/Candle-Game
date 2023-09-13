@@ -19,7 +19,7 @@ public class Parallax : MonoBehaviour
         //playerStartPos = Vector3.zero;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         transform.position = new Vector2(mainCameraTransform.position.x, mainCameraTransform.position.y) * parallaxStrength;
 

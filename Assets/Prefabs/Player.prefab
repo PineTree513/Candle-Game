@@ -173,7 +173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -373, y: 135}
+  m_AnchoredPosition: {x: -304, y: -11}
   m_SizeDelta: {x: 632.8343, y: 180.4479}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7116093658302685844
@@ -5453,11 +5453,12 @@ MonoBehaviour:
     m_Bits: 8
   spriteRenderer: {fileID: 8464367707148201306}
   playerLight: {fileID: 8464367706332749488}
-  cam: {fileID: 0}
+  cameraTransform: {fileID: 0}
   cameraScript: {fileID: 0}
   cameraFollowStrength: 4
   cameraTarget: {fileID: 0}
-  cameraSizeTarget: 5
+  cameraFOVTarget: 45
+  cameraFOVDefault: 45
   cameraZoomSpeed: 2
   panel: {fileID: 0}
   opacity: 1
