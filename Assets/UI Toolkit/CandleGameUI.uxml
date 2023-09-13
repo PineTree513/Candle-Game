@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/TitleButton.uss?fileID=7433441132597879392&amp;guid=a65376a89ed63cb45beebccb03e0276b&amp;type=3#TitleButton" />
+    <ui:VisualElement style="height: 100%; width: 100%; align-items: center; justify-content: center;">
+        <ui:Label text="Title" display-tooltip-when-elided="true" style="height: 123px; width: 683px; font-size: 60px; color: rgba(255, 255, 255, 255); -unity-text-align: middle-center; white-space: normal; -unity-font: resource(&apos;Fonts &amp; Materials/PressStart2P-Regular&apos;); -unity-font-definition: initial; position: absolute; left: auto; top: 17%;" />
+        <ui:VisualElement style="position: absolute; bottom: 15%;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" class="TitleButton" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" class="TitleButton" style="height: 60px; width: 400px; -unity-font: resource(&apos;Fonts &amp; Materials/PressStart2P-Regular&apos;); font-size: 20px; white-space: nowrap; -unity-font-definition: initial;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

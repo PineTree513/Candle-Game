@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 78c5fdd17592b4447b34d4e9867cbf99
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet1TileLol_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1091
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fd7ad45e9229a43a02f749688aecd2
+      internalID: -862382220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1090
+        width: 63
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e151c3ac8146394ca34cb4ac59eb4a3
+      internalID: 1275370769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1090
+        width: 77
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964da5cc63af084db31321639553dd4
+      internalID: 15893989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1087
+        width: 20
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e5b07d918a52344b9c40c5885ce30e
+      internalID: 894986255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_4
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 837
+        width: 80
+        height: 335
+      alignment: 9
+      pivot: {x: 0.5327942, y: 0.018388344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7342f74b962be4548a5703cf73a581d4
+      internalID: -1861643299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_5
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 836
+        width: 78
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5280292, y: 0.018469319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26dfb0f7825dbc4286be692cc791d53
+      internalID: -1164317746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_6
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 835
+        width: 77
+        height: 308
+      alignment: 9
+      pivot: {x: 0.54542917, y: 0.024435464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1615ad525a0b60d478d6bfea954cc328
+      internalID: -871056582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 448
+        width: 79
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ed954b2c6d5f14d9ce9985ff9432fa
+      internalID: 1675535954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 447
+        width: 86
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa767e5d518b4f947b4ec89846b59c7f
+      internalID: 1679482449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 449
+        width: 114
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a921124bc0cd04e48a2019660c535f24
+      internalID: -1894542634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 447
+        width: 151
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a7ffa3e615f50458c72d939e9c938c
+      internalID: -1449258322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_11
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 447
+        width: 147
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84e00396bd6767489aeccc37c69b444
+      internalID: 174968139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_12
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 406
+        width: 77
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27589cf86efbbef4ea53e43557f58125
+      internalID: 700676639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_13
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 612
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b829fbf734bc142b3e1c7b3e89c0ec
+      internalID: -490399291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_14
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 611
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44978a4c48a2da34ba952a87ea0177b4
+      internalID: 1075863025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_15
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 409
+        width: 88
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -101.5}
+        - {x: -44, y: -2.5}
+        - {x: -44, y: 101.5}
+        - {x: 44, y: 101.5}
+        - {x: 44, y: -101.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447bfe6c8edc86a42bf4a84c615c23dc
+      internalID: -307473456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_16
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 400
+        width: 176
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 62}
+        - {x: 20, y: 25}
+        - {x: 29, y: -193}
+        - {x: -56, y: -193}
+        - {x: -56, y: -5}
+        - {x: -74, y: 61}
+        - {x: -61, y: 179}
+        - {x: 7, y: 179}
+        - {x: 88, y: 98}
+        - {x: 88, y: 65}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304af8c138f5c404ba62a9e704a78234
+      internalID: 329285086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_17
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 213
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30a895a2602ca34391ecd5abc0b2fb2
+      internalID: -1436751881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_18
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 213
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1db7eeaed79d8e4883d601552634e1f
+      internalID: -1076149494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_19
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 10
+        width: 87
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -100.5}
+        - {x: -43.5, y: -36.5}
+        - {x: -43.5, y: 101.5}
+        - {x: 43.5, y: 101.5}
+        - {x: 43.5, y: -101.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14d293d51b9f094697e1c4d3d748e23
+      internalID: -1947867943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_20
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 10
+        width: 76
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f2c874415e34540b1c9ed547f16618
+      internalID: -60316204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet1TileLol_21
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 5
+        width: 159
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: -186}
+        - {x: -65.5, y: 11}
+        - {x: -79.5, y: 40}
+        - {x: -79.5, y: 186}
+        - {x: 79.5, y: 186}
+        - {x: 79.5, y: 66}
+        - {x: 39.5, y: 68}
+        - {x: 3.5, y: 12}
+        - {x: 20.5, y: -125}
+        - {x: 19.5, y: -186}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01c398f3f5c7c545ba16f79fce199f2
+      internalID: 716060900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheet1TileLol_0: -862382220
+      spritesheet1TileLol_1: 1275370769
+      spritesheet1TileLol_10: -1449258322
+      spritesheet1TileLol_11: 174968139
+      spritesheet1TileLol_12: 700676639
+      spritesheet1TileLol_13: -490399291
+      spritesheet1TileLol_14: 1075863025
+      spritesheet1TileLol_15: -307473456
+      spritesheet1TileLol_16: 329285086
+      spritesheet1TileLol_17: -1436751881
+      spritesheet1TileLol_18: -1076149494
+      spritesheet1TileLol_19: -1947867943
+      spritesheet1TileLol_2: 15893989
+      spritesheet1TileLol_20: -60316204
+      spritesheet1TileLol_21: 716060900
+      spritesheet1TileLol_22: -1011746427
+      spritesheet1TileLol_3: 894986255
+      spritesheet1TileLol_4: -1861643299
+      spritesheet1TileLol_5: -1164317746
+      spritesheet1TileLol_6: -871056582
+      spritesheet1TileLol_7: 1675535954
+      spritesheet1TileLol_8: 1679482449
+      spritesheet1TileLol_9: -1894542634
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

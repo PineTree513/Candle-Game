@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Exit
+  - Entrance
+  - Save
+  - TurnOffLight
+  - TurnOnLight
+  - Exit (Optional)
+  - Hazard
+  - Cutscene
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Terrain
+  - Water
+  - UI
+  - Player
+  - Foreground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Sky
+    uniqueID: 2837678533
+    locked: 0
+  - name: BG
+    uniqueID: 3569604387
+    locked: 0
+  - name: Particles
+    uniqueID: 377632975
+    locked: 0
+  - name: Player
+    uniqueID: 2974690519
+    locked: 0
+  - name: Interactable
+    uniqueID: 2723872637
+    locked: 0
+  - name: Terrain
+    uniqueID: 2649203871
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

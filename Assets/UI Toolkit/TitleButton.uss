@@ -1,0 +1,14 @@
+.TitleButton {
+    height: 60px;
+    width: 400px;
+    -unity-font: resource('Fonts & Materials/PressStart2P-Regular');
+    font-size: 20px;
+    white-space: nowrap;
+    -unity-font-definition: initial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.39);
+    -unity-text-outline-color: rgba(0, 0, 0, 255);
+}

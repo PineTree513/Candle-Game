@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: df9294194a7159c48b8879ca47ffceb1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666cf507a2af30a4291892a480745277
+      internalID: -1658690202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_15
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bfcda375f3a29448b535cfc5153c5e
+      internalID: 1745035486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73415fec595001a428b9f5c774ab845d
+      internalID: -1062045517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddc1c0f429e94f43b83ee0028a570f5
+      internalID: 404524061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3400932f448daa543a78970ae01a5e67
+      internalID: 1261666842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_30
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7cbf81a57ae924d9b681b3e2620c15
+      internalID: -692988135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8292bf0604bd89b4cbad458b07faac07
+      internalID: -69146764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fdbdc7b28df5043b41281d48a887fa
+      internalID: 912332114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272ed3cf92984714c83247125c5358d2
+      internalID: -1911013814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_60
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d9a5c76b9f5b44b808cc0ffe01eec7
+      internalID: -1125060225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_64
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606c7e443fdb894e9884ef25d83c349
+      internalID: 1337477761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_65
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e25d4767e288b644bfcb79ab0b2af3f
+      internalID: -1610539552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f47972cab09b94189ca3d0e665d993
+      internalID: -1812854550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_70
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df083dc48a901f44c8597a22db1c7ff7
+      internalID: 109557568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_71
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ffe29a5546de4fa16f5df4455a9bf
+      internalID: -359673043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_72
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5639e64184fe4204ca01b31775a4ee6c
+      internalID: 1583556978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 638
+        width: 354
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd9e931532b603499ec36ed34eba750
+      internalID: 1455985152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 960
+        width: 189
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2b5ab30d9d6e246bb45f77eabca6ab
+      internalID: -2120444386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 833
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a55efd3f048c045b42e82f985cf09c
+      internalID: 1333704328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 202
+        width: 780
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d28b503446a35642a0d7fdc296f174d
+      internalID: 207798471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 45
+        width: 133
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7ae493230f3d3448ec02aff09e7e37
+      internalID: -2023473548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreJunglestufff_20230709201046_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 962
+        width: 126
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c10bae9422f85948ad0fca0abfc9ee3
+      internalID: -1246342766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MoreJunglestufff_20230709201046_0: 1455985152
+      MoreJunglestufff_20230709201046_1: -2120444386
+      MoreJunglestufff_20230709201046_10: 1959727506
+      MoreJunglestufff_20230709201046_100: -765757765
+      MoreJunglestufff_20230709201046_101: -1168314265
+      MoreJunglestufff_20230709201046_11: 666691293
+      MoreJunglestufff_20230709201046_12: -1732520935
+      MoreJunglestufff_20230709201046_13: 272087378
+      MoreJunglestufff_20230709201046_14: -755485824
+      MoreJunglestufff_20230709201046_15: 1745035486
+      MoreJunglestufff_20230709201046_16: 191739449
+      MoreJunglestufff_20230709201046_17: -2074817669
+      MoreJunglestufff_20230709201046_18: 25662719
+      MoreJunglestufff_20230709201046_19: 693946723
+      MoreJunglestufff_20230709201046_2: 1333704328
+      MoreJunglestufff_20230709201046_20: -1056809795
+      MoreJunglestufff_20230709201046_21: -1062045517
+      MoreJunglestufff_20230709201046_22: 404524061
+      MoreJunglestufff_20230709201046_23: -633046046
+      MoreJunglestufff_20230709201046_24: 1261666842
+      MoreJunglestufff_20230709201046_25: -1840298928
+      MoreJunglestufff_20230709201046_26: -697883859
+      MoreJunglestufff_20230709201046_27: -158605685
+      MoreJunglestufff_20230709201046_28: -1493086857
+      MoreJunglestufff_20230709201046_29: -257785766
+      MoreJunglestufff_20230709201046_3: 207798471
+      MoreJunglestufff_20230709201046_30: -692988135
+      MoreJunglestufff_20230709201046_31: -69146764
+      MoreJunglestufff_20230709201046_32: -984135848
+      MoreJunglestufff_20230709201046_33: -322892931
+      MoreJunglestufff_20230709201046_34: -1398535179
+      MoreJunglestufff_20230709201046_35: 1001205261
+      MoreJunglestufff_20230709201046_36: 436522067
+      MoreJunglestufff_20230709201046_37: -1204780949
+      MoreJunglestufff_20230709201046_38: -452331099
+      MoreJunglestufff_20230709201046_39: 236670834
+      MoreJunglestufff_20230709201046_4: -2023473548
+      MoreJunglestufff_20230709201046_40: 1963679613
+      MoreJunglestufff_20230709201046_41: 941632459
+      MoreJunglestufff_20230709201046_42: 1092488552
+      MoreJunglestufff_20230709201046_43: -2009461396
+      MoreJunglestufff_20230709201046_44: 1247158764
+      MoreJunglestufff_20230709201046_45: 3737620
+      MoreJunglestufff_20230709201046_46: -1047565176
+      MoreJunglestufff_20230709201046_47: -935612145
+      MoreJunglestufff_20230709201046_48: 126130926
+      MoreJunglestufff_20230709201046_49: 76058251
+      MoreJunglestufff_20230709201046_5: -1246342766
+      MoreJunglestufff_20230709201046_50: 1608731049
+      MoreJunglestufff_20230709201046_51: 481983022
+      MoreJunglestufff_20230709201046_52: 1947906779
+      MoreJunglestufff_20230709201046_53: 1876331127
+      MoreJunglestufff_20230709201046_54: -1262227020
+      MoreJunglestufff_20230709201046_55: -2005693149
+      MoreJunglestufff_20230709201046_56: 818539083
+      MoreJunglestufff_20230709201046_57: 753886651
+      MoreJunglestufff_20230709201046_58: 912332114
+      MoreJunglestufff_20230709201046_59: -1911013814
+      MoreJunglestufff_20230709201046_6: -1658690202
+      MoreJunglestufff_20230709201046_60: -1125060225
+      MoreJunglestufff_20230709201046_61: -526700285
+      MoreJunglestufff_20230709201046_62: -1763000342
+      MoreJunglestufff_20230709201046_63: -1226533657
+      MoreJunglestufff_20230709201046_64: 1337477761
+      MoreJunglestufff_20230709201046_65: -1610539552
+      MoreJunglestufff_20230709201046_66: -1812854550
+      MoreJunglestufff_20230709201046_67: 824328451
+      MoreJunglestufff_20230709201046_68: 1318289724
+      MoreJunglestufff_20230709201046_69: -216876397
+      MoreJunglestufff_20230709201046_7: -211381227
+      MoreJunglestufff_20230709201046_70: 109557568
+      MoreJunglestufff_20230709201046_71: -359673043
+      MoreJunglestufff_20230709201046_72: 1583556978
+      MoreJunglestufff_20230709201046_73: -329086266
+      MoreJunglestufff_20230709201046_74: 1537752208
+      MoreJunglestufff_20230709201046_75: 451219778
+      MoreJunglestufff_20230709201046_76: 508838900
+      MoreJunglestufff_20230709201046_77: 1050356120
+      MoreJunglestufff_20230709201046_78: 1002707978
+      MoreJunglestufff_20230709201046_79: 351159741
+      MoreJunglestufff_20230709201046_8: 612330179
+      MoreJunglestufff_20230709201046_80: -2012177596
+      MoreJunglestufff_20230709201046_81: 1238144074
+      MoreJunglestufff_20230709201046_82: -1671665430
+      MoreJunglestufff_20230709201046_83: -1599610263
+      MoreJunglestufff_20230709201046_84: -2088165271
+      MoreJunglestufff_20230709201046_85: -318974350
+      MoreJunglestufff_20230709201046_86: -1864890870
+      MoreJunglestufff_20230709201046_87: 620179085
+      MoreJunglestufff_20230709201046_88: -527464367
+      MoreJunglestufff_20230709201046_89: 756670090
+      MoreJunglestufff_20230709201046_9: 589559233
+      MoreJunglestufff_20230709201046_90: 268840715
+      MoreJunglestufff_20230709201046_91: 1963196918
+      MoreJunglestufff_20230709201046_92: -1161898349
+      MoreJunglestufff_20230709201046_93: 428408449
+      MoreJunglestufff_20230709201046_94: -1743468855
+      MoreJunglestufff_20230709201046_95: -1307184310
+      MoreJunglestufff_20230709201046_96: -272797169
+      MoreJunglestufff_20230709201046_97: -160513541
+      MoreJunglestufff_20230709201046_98: 31282427
+      MoreJunglestufff_20230709201046_99: 38900405
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
