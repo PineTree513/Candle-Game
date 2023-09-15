@@ -99,12 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0911cbb796b094c99d28cdfff8a691, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 3877436473416367636}
-  sprite: {fileID: 3877436472120518786}
-  switchPulled: 0
-  playerTouching: 0
-  waypointFollowers:
-  - {fileID: 0}
+  interactionPrompt: {fileID: 3877436473416367636}
 --- !u!61 &3877436472120518844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118,7 +113,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.09}
+  m_Offset: {x: 0, y: 0.2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.53901166, y: 0.4707913}
@@ -129,7 +124,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!1 &3877436473416367636
 GameObject:
@@ -166,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -350}
-  m_SizeDelta: {x: 281.509, y: 63.7829}
+  m_AnchoredPosition: {x: -687, y: -499}
+  m_SizeDelta: {x: 659.8889, y: 149.5143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3877436473416367640
 CanvasRenderer:
@@ -197,7 +192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: W to Interact
+  m_text: E to Interact
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7a237441ccbbf5243bb4de1a31d8664b, type: 2}
   m_sharedMaterial: {fileID: -4743163629401103517, guid: 7a237441ccbbf5243bb4de1a31d8664b, type: 2}
@@ -224,7 +219,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.8
+  m_fontSize: 36.6
   m_fontSizeBase: 17.8
   m_fontWeight: 400
   m_enableAutoSizing: 0

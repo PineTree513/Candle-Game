@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaypointFollower : MonoBehaviour
+public class WaypointFollower : MonoBehaviour, ISwitchable
 {
     [SerializeField] private Transform[] waypoints;
     private int currentPoint = 0;
@@ -41,7 +41,7 @@ public class WaypointFollower : MonoBehaviour
     {
         if (CrushingPlayer())
         {
-            PrevPoint();
+            PreviousPoint();
         }
 
         if (Vector2.Distance(waypoints[currentPoint].position, transform.position) < .1f)
@@ -60,7 +60,7 @@ public class WaypointFollower : MonoBehaviour
         return Physics2D.BoxCast(coll.bounds.center, new Vector3(coll.bounds.size.x - .1f, coll.bounds.size.y - .1f, coll.bounds.size.z), 0f, Vector2.down, .1f, player);
     }
 
-    private void PrevPoint()
+    private void PreviousPoint()
     {
         currentPoint--;
 
@@ -78,5 +78,10 @@ public class WaypointFollower : MonoBehaviour
         {
             currentPoint = 0;
         }
+    }
+
+    public void Switch()
+    {
+        active = !active;
     }
 }

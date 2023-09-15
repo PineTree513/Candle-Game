@@ -5,10 +5,11 @@ using UnityEngine;
 public abstract class InteractableBase : MonoBehaviour
 {
     protected bool canInteract;
+    [SerializeField] protected GameObject interactionPrompt;
 
     private void Update()
     {
-        if (canInteract && UserInput.interact)
+        if (canInteract && Input.GetKeyDown(KeyCode.E))
         {
             Interact();
         }
@@ -16,12 +17,20 @@ public abstract class InteractableBase : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        canInteract = true;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            canInteract = true;
+            interactionPrompt.SetActive(true);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        canInteract = false;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            canInteract = false;
+            interactionPrompt.SetActive(false);
+        }
     }
 
     public abstract void Interact();
