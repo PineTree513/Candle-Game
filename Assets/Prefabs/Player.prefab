@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.9999847}
+  m_AnchoredPosition: {x: 0.7999878, y: -10.199997}
   m_SizeDelta: {x: -238.107, y: -78.3675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8020349461817349113
@@ -95,15 +95,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.7
+  m_fontSize: 11.4
   m_fontSizeBase: 11.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -5367,6 +5367,7 @@ Transform:
   - {fileID: 4302454996041714250}
   - {fileID: 7865757073230416534}
   - {fileID: 1214298346869066327}
+  - {fileID: 2188372471003457435}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5460,6 +5461,8 @@ MonoBehaviour:
   cameraFOVTarget: 45
   cameraFOVDefault: 45
   cameraZoomSpeed: 2
+  fallingFOV: 50
+  fallingModeTime: 0.2
   panel: {fileID: 0}
   opacity: 1
   fadeSpeed: 0.7
@@ -5472,6 +5475,7 @@ MonoBehaviour:
   dust: {fileID: 8464367707531194130}
   wallBurst: {fileID: 1454268452233288203}
   wallParticles: {fileID: 8396625800511669873}
+  scene: 
   transition: 0
   entered: 0
 --- !u!61 &8464367707148201309
@@ -10354,6 +10358,37 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!1 &8552998649094149700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2188372471003457435}
+  m_Layer: 6
+  m_Name: Falling Camera Target
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2188372471003457435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8552998649094149700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8464367707148201307}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9116612069228731375
 GameObject:
   m_ObjectHideFlags: 0

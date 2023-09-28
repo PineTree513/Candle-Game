@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpTime;
     [SerializeField] private float fallSpeed;
     [SerializeField] private float wallFallSpeed;
+    private bool breakingFallSpeed;
     [SerializeField] private float jumpQueuedTime;
     [SerializeField] private float kickOff;
     [SerializeField] private float brakeSpeed;
@@ -37,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D coll;
 
-    [Header("Camera")]
+    [Header("Camera - Use Main Camera Tag")]
     public Transform cameraTransform;
     [SerializeField] private Camera cameraScript;
     [SerializeField] private float cameraFollowStrength;
@@ -45,6 +46,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float cameraFOVTarget;
     [SerializeField] private float cameraFOVDefault;
     [SerializeField] private float cameraZoomSpeed;
+    [SerializeField] private float fallingFOV;
+    [SerializeField] private float fallingModeTime;
+    private float fallingModeTimer;
+
 
     [Header("UI")]
     public GameObject panel;
@@ -63,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private ParticleSystem wallBurst;
     [SerializeField] private ParticleSystem wallParticles;
 
-    private string scene;
+    [HideInInspector] public string scene;
 
     private GameObject optionalExit;
     public bool transition = false;
@@ -79,6 +84,8 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         coll = GetComponent<BoxCollider2D>();
         img = panel.GetComponent<Image>();
+        cameraTransform = Camera.main.transform;
+        cameraScript = Camera.main.GetComponent<Camera>();
 
         cameraTarget = transform.Find("Camera Target");
         cameraTransform.position = cameraTarget.position;
@@ -247,9 +254,28 @@ public class PlayerMovement : MonoBehaviour
 
     private void CamController()
     {
-        cameraTransform.position = Vector3.Lerp(cameraTransform.position, new Vector3(cameraTarget.position.x, cameraTarget.position.y, -10), cameraFollowStrength * Time.deltaTime);
-        //cameraScript.orthographicSize = Mathf.Lerp(cameraScript.orthographicSize, cameraSizeTarget, cameraZoomSpeed * Time.deltaTime);
-        cameraScript.fieldOfView = Mathf.Lerp(cameraScript.fieldOfView, cameraFOVTarget, cameraZoomSpeed * Time.deltaTime);
+        if (breakingFallSpeed)
+        {
+            breakingFallSpeed = false;
+            fallingModeTimer += Time.fixedDeltaTime;
+        }
+        else
+        {
+            fallingModeTimer = 0;
+        }
+
+        if (fallingModeTimer > fallingModeTime)
+        {
+            cameraTarget = transform.Find("Falling Camera Target");
+            cameraTransform.position = Vector3.Lerp(cameraTransform.position, new Vector3(cameraTarget.position.x, cameraTarget.position.y, -10), cameraFollowStrength * Time.deltaTime);
+            cameraScript.fieldOfView = Mathf.Lerp(cameraScript.fieldOfView, fallingFOV, cameraZoomSpeed * Time.deltaTime);
+        }
+        else
+        {
+            cameraTransform.position = Vector3.Lerp(cameraTransform.position, new Vector3(cameraTarget.position.x, cameraTarget.position.y, -10), cameraFollowStrength * Time.deltaTime);
+            //cameraScript.orthographicSize = Mathf.Lerp(cameraScript.orthographicSize, cameraSizeTarget, cameraZoomSpeed * Time.deltaTime);
+            cameraScript.fieldOfView = Mathf.Lerp(cameraScript.fieldOfView, cameraFOVTarget, cameraZoomSpeed * Time.deltaTime);
+        }
     }
 
     private void MoveLogic()
@@ -333,6 +359,7 @@ public class PlayerMovement : MonoBehaviour
         } 
         else if (rb.velocity.y < fallSpeed)
         {
+            breakingFallSpeed = true;
             rb.velocity = new Vector2(rb.velocity.x, fallSpeed);
         }
     }
